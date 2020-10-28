@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cambiando imágenes con JS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- JS -->
+    <script>
+        function cambiar() {
+            document.getElementById("change").src = "img/oreo.jpg";
+        }
+
+        function volver() {
+            document.getElementById("change").src = "img/ciudad-rosa.jpg";
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Cambiando imágenes con JS</h1>
+    <a href="#" onMouseOver="cambiar()" onMouseOut="volver()" class="link">Al pasar sobre mi cambiará la imagen</a>
+    <div class="img-container">
+        <img src="img/ciudad-rosa.jpg" alt="" id="change" />
+    </div>
+</body>
+
+</html>

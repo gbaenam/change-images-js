@@ -1,0 +1,31 @@
+body {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    background-color: CornflowerBlue;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.link {
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.img-container {
+    width: 700px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
